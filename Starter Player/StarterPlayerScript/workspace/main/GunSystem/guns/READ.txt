@@ -1,0 +1,3 @@
+--
+Use training rifle as a base to make new guns. Copy and paste but change [SETTINGS] file.
+--
