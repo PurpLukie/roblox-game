@@ -1,0 +1,48 @@
+local Settings = {
+	
+	Damage = 0, --Damage Per Hit
+	FireRate = 0.2,
+	FireType = "Auto", --Auto, Semi, Burst
+	ReloadTime = 3.3, -- Time It Takes To Reload
+	HeadShotMultiplyer = 2, -- Multiplied Damage When Hit In Head
+	MaxAmmo = 31, --Ammo Per Reload
+	CurrentAmmo = 31, --Current Ammo In Current Mag
+	
+	
+	FlashLight = false, --If Gun Has A Flashlight
+	FlashlightKeyBind = Enum.KeyCode.F,
+	Silencer = false, --If Gun Has A Silencer
+	SilencerKeyBind = Enum.KeyCode.V,
+	
+	GunCursor = "rbxassetid://117431027",
+	
+	EquipSound = true,
+	EquipAnimation = false,
+	
+	BulletHit = true, --Whether Or Not Bullet Makes A Mark Where It Hit.
+	BulletHitSounds = true, --Whether Or Not A Sound Will Be Played When Bullet Hits The Ground.
+	BulletVelocity = true, --Whether Or Not Bullets Can Move Objects.
+	
+	BoltBack = true, --When True, The Bolt Of The Gun Will Move Back When Firing.
+	RemoveMagOnReload = true, --When Reloading, The Magazine Will Fall To The Ground.
+	MuzzleFlare = true, --When Firing, Light Will Appear Out Of The Barrel.
+	
+	BurstFireRate = 0.1, --Time Between Each Bullet.
+	BurstFireAmount = 3, --Amount Of Bullets Shot Per Burst Fire.
+	
+	BloodEffect = true,
+	
+	BulletVelocity = 120, --Number Must Be Between 120 and 370. This Is Only Needed If 'BulletVelocity' Is Enabled.
+	BulletMass = 0.04, --Must Be Between 0.02 And 0.1. This Is Only Needed If 'BulletVelocity' Is Enabled.
+	
+	AimingFOV = 40, --Field Of View When Aiming.
+	AimSpeed = 0.25, --Time It Takes To Aim.
+	
+	MaxBulletDistance = 1000,
+	
+	TeamKilling = false,
+	
+	Recoil = 0.01,
+	
+	}
+return Settings
